@@ -72,14 +72,4 @@ for j in range(1, sides+1):
     else:
         print("Side", format(j,'2d'), ":", format(countlist[j-1],'2d'), "times:", "*"*countlist[j-1])
 
-
-
 print("Total Rolls:", rolls)
-
-    
-
-    
-
-
-
-
