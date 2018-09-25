@@ -58,21 +58,3 @@ for x in range(1, students+1):
 realavg = total / count
 frealavg = format(realavg, '.2f')
 print("Average score for all students is:", frealavg)
-
-
-
-
-
-        
-
-        
-    
-
-
-
-    
-    
-    
-    
-    
-
