@@ -56,15 +56,3 @@ while True:
 
     if count == ppl:
         break 
-
-    
-            
-            
-
-
-
-
-
-    
-    
-    
