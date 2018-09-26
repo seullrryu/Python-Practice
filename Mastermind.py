@@ -18,13 +18,10 @@ import random
 def generate_code(length):
     code = ""
     for i in range(length):
-        num = str(random.randint(1,9))
-    
+        num = str(random.randint(1,9))  
         while num in code:
             num = str(random.randint(1,9))
-        
         code = code + num
-
     return code
                 
 
@@ -37,7 +34,6 @@ def digits_in_code(guess, code):
     for i in str(guess):
        if i in code:
             count = count + 1
-
     return count
 
 
@@ -51,7 +47,6 @@ def digits_in_place(guess, code):
     for i in range(length):
         if guess[i] == code[i]:
             correct = correct + 1
-
     return correct
 
 
@@ -78,7 +73,6 @@ while True:
 
     if guess != code:
         print(digits_in_code(guess, code), "are in the code and", digits_in_place(guess, code), "are in the correct place")
-
     else:
         print("You guessed it in", count, "turns!")
         break
